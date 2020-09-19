@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+
+</head>
+<body>
+    
+        <header class="header">
+            <div class="portrait">
+                <img src="./IMG_4891.jpg" class="portrait__pic" alt="portrait"/>
+            </div>
+            <div class="name">
+                <h4>KIRILL GAVRILCHIK</h4>
+            </div>
+        </header>
+        <hr class="line" noshade="none">
+     <main class="info">
+        <section class="info__left">
+            <div class="profile">
+                <h3>PROFILE</h3>
+                <p>Had experience in developing a website using the React library. Also I have experience in using C/C++, Python and Swift. I have a good algorithmic base and i’m a quick learner. I am familiar with web technologies and IOS developing. Responsibly approach the tasks and try to solve them optimally and quickly.</p>
+            </div>
+            <div class="skills">
+                <h3>SKILLS</h3>
+                <h5>Coding Languages</h5>
+                <p>C/C++,JavaScript,Python,Swift</p>
+                <h5>Frameworks/Systems</h5>
+                <p>Git,Sketch</p>
+            </div>
+            <div class="contact-info">
+                <h3>CONTACT INFO</h3>
+                <ul>
+                    <li><a href="https://github.com/SPARSEKING" class="github">Github</a></li>
+                    <li><a href="mail: gavrilchikkirill6@gmail.com" class="gmail">Gmail</a></li>
+                    <li><a href="https://www.linkedin.com/in/kirill-gavrilchik-a32508187/" class="linkedin">LinkedIn</a></li>
+                    <li><a href="https://t.me/gavr_42" class="telegram">Telegram</a></li>
+                </ul>
+             </div>
+             <div class="expirience">
+                <h3>EPIRIENCE</h3>
+                <ul>
+                    <li><a href="https://www.udemy.com/user/kirill-gavrilchik/" class="udemy">Udemy</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="vl"></div>
+        <section class="info__right">
+            <div class="code-example">
+                <h3>CODE EXAMPLE</h3>
+                <code>
+                    <pre>
+                    function findSolution(target) {
+                        function find(start, history) {
+                          if (start == target)
+                            return history;
+                          else if (start > target)
+                            return null;
+                          else
+                            return find(start + 5, "(" + history + " + 5)") ||
+                                   find(start * 3, "(" + history + " * 3)");
+                        }
+                        return find(1, "1");
+                      }
+                      </pre>
+                </code>
+            </div>
+            <div class="education">
+                <h3>EDUCATION</h3>  
+                <span>2017-2021</span>
+                <br>
+                <span>Faculty of Compyter Systems and Networks; BSUIR (Minsk)</span>
+            </div>
+            <div class="languages">
+                <h3>LANGUAGES</h3>
+                <ul>
+                    <li>Russian(native speaker</li>
+                    <li>English(B1)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
